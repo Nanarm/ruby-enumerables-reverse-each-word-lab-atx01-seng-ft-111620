@@ -1,13 +1,13 @@
 def reverse_each_word(string)
-  new_string = []
-  string_b = string.split.
+  new_string = string.split(" ")  #turn string into an array
+  string_b = []
   
-  string_b.each do |backwards|
-    backwards = string_b.reverse
-    # new_string << backwards
+  new_string.each do |backwards|
+    string_b << backwards.reverse
+    
   end
+  string_b.join(" ")
 end
-
 
 
 
