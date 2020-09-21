@@ -3,7 +3,7 @@ def reverse_each_word(string)
   string_b = string.split.
   
   string_b.each do |backwards|
-    backwards = backwards.reverse
+    backwards = string_b.reverse
     # new_string << backwards
   end
 end
